@@ -1,0 +1,147 @@
+	<!doctype html> 
+<html lang="en">
+	<head>
+		<!--Bethany Thielen-->
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<title>Thyme for Dinner</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Find recipes based on the ingredients you have in the fridge. Browse our editor's picks and search our extensive database of recipes.">
+		<link rel="stylesheet" href="../css/recipes.css">
+	</head> 
+	<body> 
+		<div id="wrapper">
+			<header>
+				<h1>Recipe Finder</h1>
+				<a href="index.html"><img src="../images/logo.png" alt="Thyme For Dinner Logo"></a>
+				<nav>
+					<h2>Navigation</h2>
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="about.html">recipes</a></li>
+						<li><a href="contact.html">about</a></li>
+					</ul>
+				</nav>
+				<img src="../images/headerimage.png" alt="header image">
+			</header>
+			<main>
+
+				<section>
+					<h2>Recipe Finder</h2>
+					<div id="recipeBar">
+						<button>&plus; Add Ingredient</button>
+						<form>
+							<input type="search" name="recipesearch" placeholder="Search recipes">
+							<span class="fa fa-search"></span>
+							<select>
+							  <option id="15">&#60; 15 mins</option>
+							  <option id="30">&#60; 30 mins</option>
+							  <option id="45">&#60;</option>
+							  <option id="none">No limit</option>
+							</select>
+						</form>
+						<span class="ingredient">&minus; Radishes</span>
+						<span class="ingredient">&minus; Mayonaise</span>
+						<span class="ingredient">&minus; Eggs</span>
+					</div>
+				</section>
+				<aside>
+					<h2>Filter Results</h2>
+					<p>clear filters</p>
+
+					<button class="accordion">Allergies</button>
+					<div class="panel">
+						<form>
+						 	<input type="checkbox" name="soy" id="soy">
+						    <label for="soy">Soy</label>
+
+						    <input type="checkbox" name="wheat" id="wheat">
+						    <label for="wheat">Wheat</label>
+
+						   	  <label for="dairy">Dairy</label>
+						    <input type="checkbox" name="dairy" id="dairy">
+						  
+
+						    <input type="checkbox" name="treenuts" id="treenuts">
+						    <label for="treenuts">Tree nuts</label>
+						</form>
+					</div>
+
+					<button class="accordion">Nutrition</button>
+					<div class="panel">
+						<form>
+						 	<input type="checkbox" name="sugar" id="sugar">
+						    <label for="sugar">Low Sugar</label>
+
+						    <input type="checkbox" name="carb" id="carb">
+						    <label for="carb">Low Carb</label>
+
+						    <input type="checkbox" name="fat" id="fat">
+						    <label for="fat">Low Fat</label>
+
+						    <input type="checkbox" name="fiber" id="fiber">
+						    <label for="fiber">High Fiber</label>
+						</form>
+					</div>
+
+					<button class="accordion">Diet</button>
+					<div class="panel">
+						<form>
+						 	<input type="checkbox" name="ketogenic" id="ketogenic">
+						    <label for="ketogenic">Ketogenic</label>
+
+						    <input type="checkbox" name="atkins" id="atkins">
+						    <label for="atkins">Atkins</label>
+
+						    <input type="checkbox" name="whole30" id="whole30">
+						    <label for="whole30">Whole 30</label>
+						</form>
+					</div>
+
+					<button class="accordion">Recipe Source</button>
+					<div class="panel">
+						<form>
+						 	<input type="checkbox" name="allrecipes" id="allrecipes">
+						    <label for="allrecipes">Allrecipes</label>
+
+						    <input type="checkbox" name="delish" id="delish">
+						    <label for="delish">Delish</label>
+						</form>
+					</div>
+				</aside>
+
+				<section>
+					<h2> Search Results:</h2>
+					<h3>Radish Egg Sandwich</h3>
+					<img src="../images/sandwich.png" alt="sandwich">
+					<p>The radishes bring a crisp, peppery crunch. We layered ours on bread with sprouts to make a gooey, satisfyingly messy sandwich. </p>
+					<a href="https://www.acouplecooks.com/radish-and-egg-salad-sandwiches-in-our-kitchen/" target="_blank">View recipe on Delish</a>
+			
+					<h3>Vegetable Skillet</h3>
+					<img src="../images/skillet.png" alt="vegetable skillet">
+					<p>All the vegetables in your fridge that you didn’t know what to do with. The perfect meal for any time of the day. </p>
+					<a href="http://allrecipes.com/recipe/25431/outdoor-vegetable-skillet/" target="_blank">View recipe on Allrecipes</a>
+		
+					<h3>Burrito Bowl</h3>
+					<img src="../images/burritobowl.png" alt="buritto bowl">
+					<p>It’s a burrito....in a bowl. A hodge podge of goodness just waiting to be devoured. It can be made as fancy or as simple as you want, to meet your meal time needs</p>
+					<a href="http://www.delish.com/cooking/recipe-ideas/recipes/a51578/loaded-burrito-bowls-recipe/" target="_blank">View recipe on Delish</a>
+				</section>
+
+				<span id="end">End results</span>
+				<hr>
+
+
+			</main>
+			<footer>
+				<div>
+					<h2>Contact Info</h2>
+					<p>Call us at 480-245-1357</p>
+					<p>Email us at support@thymefordinner.com</p>
+					<p>[For educational purposes only]</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+

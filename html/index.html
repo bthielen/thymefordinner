@@ -1,0 +1,98 @@
+<!doctype html> 
+<html lang="en">
+	<head>
+		<!--Bethany Thielen-->
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<title>Thyme for Dinner</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Find recipes based on the ingredients you have in the refridgerator. Browse our editor's picks and search our extensive database of recipes.">
+		<link rel="stylesheet" href="../css/home.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	</head> 
+	<body> 
+		<div id="wrapper">
+			<header class="header">
+				<div id="headerContent">
+					<h1 class="hidden">Thyme for Dinner Home</h1>
+					<a href="index.html"><img src="../images/logo.png" alt="Thyme For Dinner Logo"></a>
+
+				  <input class="menu-btn" type="checkbox" id="menu-btn" />
+				  <label class="menu-icon" for="menu-btn"><span class="navicon">Menu</span></label>
+
+				  <div class="menu">
+				  	<nav>
+				  		<h2 class="hidden">Navigation</h2>
+					  	<ul>
+						    <li> <a id="currentPage" href="index.html">home</a></li>
+							<li><a id="middleNav" href="#">recipes</a></li>
+							<li><a href="#">about</a></li>
+						</ul>
+					</nav>
+				  </div>
+			</div>
+
+	
+			</header>
+
+	
+			<main>
+				<section id="topSection">
+					<h2 class="hiddenDesktop">Quick Search</h2>
+					<div id="heroimageContainer">
+						<div id="heroimageText">
+							<h2>Thyme For Dinner</h2>
+							<p>Enter the ingredients you have on-hand. We'll build a dish around them. </p>
+					
+								<input class="button" type="button" value="Find Recipes" onclick="#" />
+
+
+						</div>
+						<img src="../images/heroimage.png" alt="Hero image of cutting board">
+					</div>
+
+					<div class="hiddenDesktop">
+
+						<form>
+							<input type="search" name="recipesearch" placeholder="Search recipes">
+							<span class="fa fa-search"></span>
+						</form>
+
+						<button>&plus; Add Ingredient</button>
+						<span class="ingredient">&minus; Radishes</span>
+						<span class="ingredient">&minus; Mayonaise</span>
+						<span class="ingredient">&minus; Eggs</span>
+					</div>
+					
+
+				</section>
+				<section id="featured">
+				
+					 <h2>Featured Recipes</h2>
+
+					<div class="imgContainer">
+						<img src="../images/featuredshrimp.png" alt="featued image of shrimp">
+						<div class="titleContainer"><h3>Shrimp Scampi</h3></div>
+					</div>
+					<div class="imgContainer">
+						<img src="../images/featuredtaco.png" alt="featued image of fish">
+						<div class="titleContainer"><h3>Fish Tacos</h3></div>
+					</div>
+					<div class="imgContainer">
+
+						<img src="../images/featuredsalmon.png" alt="featued image of salmon">
+						<div class="titleContainer"><h3>Salmon Filet</h3></div>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div id="footer">
+					<h2 class="hidden">Footer</h2>
+					<p>Call us at 480-245-1357</p>
+					<p class="hiddenDesktop">Email us at support@thymefordinner.com</p>
+					<p class="hiddenDesktop">[For educational purposes only]</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
